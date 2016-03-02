@@ -1,0 +1,22 @@
+{
+  "name": "lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "cover": "istanbul cover _mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "~4.13.1",
+    "mongodb": "~2.0.33",
+    "chai" : "^3.5.0",
+    "supertest" : "^1.2.0",
+    "mocha" : "^2.4.5",
+    "istanbul" : "^0.4.2",
+    "morgan": "~1.6.1"
+  }
+}
